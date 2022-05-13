@@ -1,0 +1,48 @@
+
+body{
+    background: #0e0505;
+    font-family: 'Courier New', Courier, monospace;
+}
+.texto{
+    color: #711A75;
+    font-size: 40px;
+    text-align: center;
+}
+.imagens{
+    display:flex;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img{
+    margin-left: 10;
+    margin-right: auto;
+    width: 800px;
+    
+}
+#img1{
+    background-image: url('../imagens/geraltgame.jpg');
+    background-size: 800px, 400px;
+    width: 800px;
+    height: 400px;
+    border-radius: 8px;
+}
+
+#img1:hover{
+    background-image:  url('../imagens/geraltserie.png');
+    background-size: 800px, 400px;
+}
+
+#img2{
+    background-image: url('../imagens/cirigame.jpg');
+    height: 400px;
+    width: 800px;
+    border-radius: 8px;
+    size: 800px;
+    background-size: 800px, 400px;    
+}
+#img2:hover{
+    background-image: url('../imagens/ciriserie.jpg');
+    background-size: 800px, 400px;
+}
